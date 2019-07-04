@@ -1,0 +1,53 @@
+.container{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#display{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    font-size: 72px;
+}
+.buttons{
+   text-align: center;
+}
+#startStop{
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 42px;
+    padding: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-style: initial;
+ 
+}
+#reset{
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 42px;
+    padding: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-style: initial;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+#reset:hover{
+    color: blueviolet;
+    background-image: linear-gradient(to right, red , yellow)
+}
+#startStop:hover{
+    color: blueviolet;
+    background-image: linear-gradient(to right, red , yellow)
+}
+#heading{
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    font-size: 30px;
+
+}
